@@ -1,3 +1,5 @@
+//tipos de dados primitivos: string, number, undefined, boolean, symbol
+
 const nome ='Luiz';//string
 const nomeUm="Luiz";//string
 const nomeDois=`Luiz`;//
@@ -10,4 +12,4 @@ const sobrenomeAluno = null; //nulo -> nao apontam para lugar nenhum na memória
 
 const boolean = true; //boolean = tru, false (lógico), usamos boolean quando queremos fazer uma mudança no fluxo da aplicação
 
-console.log(typeof const);
+console.log(typeof numUm);
