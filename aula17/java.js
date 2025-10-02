@@ -4,12 +4,23 @@ const pesso1a = {
     idade: 25,
     
     Fala() {
-        console.log(`${this.nome} ${this.sobrenome} esta falando Oii...`)
+        console.log(`minha idade é ${this.idade}`)
+    },
+
+    incremetaIdade(){
+        this.idade++;
     }
 };  
 
-document.innerhtml()
 pesso1a.Fala();
+pesso1a.incremetaIdade();
+pesso1a.Fala();
+pesso1a.incremetaIdade();
+pesso1a.Fala();
+pesso1a.incremetaIdade();
+
+// document.innerhtml()
+// pesso1a.Fala();
 // const pessoa2 = {
 //      nome02: 'maria',
 //      sobrenome02: 'oliveira',
